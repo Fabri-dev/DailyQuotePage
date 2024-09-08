@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Quote</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>    
+    <link rel="icon" href="imgs/favicon.ico">
+    <script src="https://kit.fontawesome.com/a23e4d8427.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <h1 id="title-home"><a href="#principal-section">Your Daily Quote</a></h1>
+        <nav>
+            <ul>
+                <li><a href="#notifications">Notifications</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="principal-section">
+            <h2 id="quote">Loading quote...</h2>
+            <hr id="cutline">
+            <div>
+                <p id="author">"Loading author..."</p>
+            </div>
+        </section>
+        <article id="anotherButtonContainer">
+            <button id="anotherButton" type="button">Another one!</button>
+        </article>
+    </main>
+
+    <section id="notifications">
+
+        <h3>If you liked this quote and want to receive these phrases by email, sign up here</h3>
+        <form>
+            <div class="form-group-top">
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" required>
+            </div>
+            <div class="form-group-bottom">
+                <button id="submitButton" type="submit">Sign Up</button>
+            </div>
+        </form>
+    </section>
+
+
+    <footer>
+        <p>&copy; 2024 - Daily Quote</p>
+        <div id="contact">
+            <a href="https://github.com/Fabri-dev" target="_blank"><i class="fa-brands fa-github" style="color: #74C0FC;"></i>Github</a>
+        </div>
+    </footer>
+
+    
+
+
+    <script src="scripts.js"></script>
+</body>
+</html>
