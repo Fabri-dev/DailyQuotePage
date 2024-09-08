@@ -4,7 +4,7 @@ const $anotherButton = document.getElementById("anotherButton");
 const $submitButton = document.getElementById("submitButton");
 
 const urlApi = "https://api.api-ninjas.com/v1/quotes";
-const apiKey = "kIG+hCruhRu/21qiawbOuw==EZS6LOkUqvrcpS5R"; // Reemplaza con tu clave API real
+const apiKey = API_KEY;
 
 const config = {
     method: 'GET',
